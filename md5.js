@@ -9415,7 +9415,7 @@
       s = H.c1(C.i, t, "S", 0)
       s = H.a(C.f.bn(0, new H.R(new H.aJ(t, [s]), new Z.fB(a), [s, P.j]).ag(0)).split("\n"), [P.f])/////////////////////////////////////////////////////////calc
 
-      for(iii=0;iii<s.length;iii++)console.log(s[iii].split(" "))//////////////////////////////////////
+      for(iii=0;iii<s.length;iii++)console.log(s[iii].split("\t"))//////////////////////////////////////
 
       r = new H.R(s, new Z.fC(), [H.n(s, 0), [P.q, [P.q, P.f]]]).ag(0)
       if (r.length > 1) {
