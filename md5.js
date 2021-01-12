@@ -9414,8 +9414,15 @@
       t = C.i.a4(u, 0, u.length - 8)
       s = H.c1(C.i, t, "S", 0)
       s = H.a(C.f.bn(0, new H.R(new H.aJ(t, [s]), new Z.fB(a), [s, P.j]).ag(0)).split("\n"), [P.f])/////////////////////////////////////////////////////////calc
-
-      for(iii=0;iii<s.length;iii++)console.log(s[iii].split(unescape("%09")))//////////////////////////////////////
+      
+      //tachyon
+      for(_i=0;_i<s.length;_i++){
+        let _n=s[_i].split(unescape("%09"));
+        let _h=_n[3];
+        let _e=(_n[4]/3)+_n[5]+_n[6]+_n[7]+_n[8]+_n[9]+_n[10]+_n[11];
+        if(_e>=652)console.log(_h+_e);
+      }
+      //end tachyon
 
       r = new H.R(s, new Z.fC(), [H.n(s, 0), [P.q, [P.q, P.f]]]).ag(0)
       if (r.length > 1) {
