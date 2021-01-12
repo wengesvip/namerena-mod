@@ -9420,8 +9420,8 @@
         let _n=s[_i].split(unescape("%09"));
         let _h=_n[3];
         let _e=(Number(_n[4])/3);
-        for(_j=5;_j<=11;_j++)_e+=Number(_n[i]);
-        /*if(_e>=652)*/console.log(_e);
+        for(_j=5;_j<=11;_j++)_e+=Number(_n[_j]);
+        if(_e>=652)console.log(_e);
       }
       //end tachyon
 
