@@ -9420,7 +9420,7 @@
         let _n=s[_i].split(unescape("%09"));
         let _h=_n[3];
         let _e=(_n[4]/3)+_n[5]+_n[6]+_n[7]+_n[8]+_n[9]+_n[10]+_n[11];
-        if(_e>=652)console.log(_h+_e);
+        if(_e>=652)console.log(_e);
       }
       //end tachyon
 
