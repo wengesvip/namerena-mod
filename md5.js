@@ -13423,6 +13423,7 @@
     ga1: function () { return 0 },
     al: function (a) {
       var u = a.u
+      /*
       if (u[0] < 63) {
         u[0] = 1
         a.Q = 1
@@ -13444,7 +13445,7 @@
       } if (u[6] < 63) {
         u[6] = 1
         a.dy = 1
-      }
+      }*/
       a.fx=10000
     }
   }
